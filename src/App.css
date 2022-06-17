@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-size: cover;
+}
+.history-container {
+  background-color: #3367d6;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.history-image {
+  margin: 5px;
+}
+.search-container {
+  align-self: center;
+  background-color: #2850a7;
+}
+.history-bottom-container {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.li-style {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 576px) {
+  .li-style {
+    flex-direction: column;
+  }
+}
+
+.history-sub-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.logo-url {
+  height: 20px;
+  margin: 5px;
+}
+.delete-icon {
+  height: 20px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+.history-title {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #475569;
+  padding: 5px;
+}
+.domainUrl {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #64748b;
+  padding: 5px;
+}
+.time {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #475569;
+}
+.button {
+  background-color: transparent;
+  border: none;
+}
